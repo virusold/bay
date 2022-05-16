@@ -1,0 +1,10 @@
+apt update && apt install xrdp lxde python python3 python-pip python3-pip tor screen xterm crunch gnome-terminal -y && pip install pytz requests pysocks
+
+
+apt install php -y
+apt update ; apt php7.2-cli hhvm install xrdp lxde xterm php python3 python ; pip install requests ; apt update && apt install xrdp lxde python python3 python-pip python3-pip tor screen xterm crunch gnome-terminal -y && pip install pytz requests pysocks
+
+
+apt install php7.2-cli
+
+# screen -d -m bash -c "killall tor;tor;"
